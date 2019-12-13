@@ -1,0 +1,144 @@
+body {
+    background-color: #F5F5F5;
+    font-family:  sans-serif;
+}
+.search{
+    border: 1px solid #D2D2D2;
+    width: -webkit-fill-available;
+    padding: 20px;
+    font-size: 18px;
+}
+.search-result{
+    height: 150px;
+    background-color: #FFF;
+    border: 1px solid #D2D2D2;
+    margin-top: 10px;
+    overflow-y: scroll;
+    font-size: 18px;
+}
+.search-result::-webkit-scrollbar {
+    display: none;
+}
+.search-result {
+    -ms-overflow-style: none;
+    display: none;
+}
+/*     li::first-letter {
+           font-weight: bold;
+       }*/
+.search-result ul{
+    list-style: none;
+}
+.search-result ul, li {
+    margin:  10px;
+    padding: 0;
+    cursor: pointer;
+}
+.search-history-header {
+    margin-top: 15px;
+}
+.search-history-title {
+    margin: 15px;
+    display: inline-block;
+}
+.clear-search-link{
+    color: #515151;
+    float: right;
+    display: inline-block;
+    margin: 15px;
+    text-decoration: underline;
+    text-decoration-color: #515151;
+    cursor: pointer;
+    display: none;
+}
+.table-history {
+    width: 98%;
+    margin: 15px;
+    border-collapse: collapse;
+}
+tr {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 15px;
+}
+th, td {
+    padding: 10px;
+}
+.title-history {
+    font-weight: bold;
+    width: 75%;
+}
+.date-history {
+    width: 15%;
+    color: #CCCCCC;
+}
+.clear-history {
+    float: right;
+    width: 10%;
+    color: #CCCCCC;
+    cursor: pointer;
+}
+.highlight {
+    font-weight: bold;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .search-history-title {
+        font-size: 15px;
+    }
+    .clear-search-link{
+        font-size:11px;
+    }
+    .table-history {
+        width: 95%;
+    }
+    .title-history {
+        font-size: 12px;
+        width: 50%;
+    }
+    .date-history {
+        width: 42%;
+        font-size: 12px;
+        color: #CCCCCC;
+    }
+    .clear-history {
+        float: right;
+        width: 8%;
+        color: #CCCCCC;
+        cursor: pointer;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .title-history {
+        font-size: 15px;
+        width: 65%;
+    }
+    .date-history {
+        width: 25%;
+        font-size: 15px;
+        color: #CCCCCC;
+    }
+    .clear-history {
+        float: right;
+        width: 10%;
+        color: #CCCCCC;
+        cursor: pointer;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
