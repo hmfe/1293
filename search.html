@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search application</title>
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+<body>
+<header>
+
+</header>
+<article>
+<section>
+
+        <header>
+        </header>
+        <section>
+           <input type="search" class="search" autocomplete="off" id="search" onkeyup="searchFunction()" placeholder="Search..." />
+        </section>
+        <section id="search-result"  class="search-result">
+            <ul id="search-result-filter">
+
+              <!--  <li>dogs</li>
+                <li>doors</li>
+                <li>do</li>
+                <li>dogs</li>
+                <li>doors</li>
+                <li>do</li>-->
+            </ul>
+        </section>
+
+
+</section>
+<section>
+
+        <header class="search-history-header">
+            <h3 class="search-history-title">Search history</h3>
+            <a id="clear-search-link" class="clear-search-link" onclick="deleteSearchHistory()">Clear search history</a>
+        </header>
+        <section>
+            <table id="table-history" class="table-history">
+                <tbody>
+               <!-- <tr>
+                    <td class="title-history">screwdriver</td>
+                    <td class="date-history">2018-01-01, 2:31PM</td>
+                    <td class="clear-history">&#10006;</td>
+                </tr>-->
+                </tbody>
+            </table>
+        </section>
+
+</section>
+</article>
+<footer></footer>
+</body>
+</html>
+<script type="text/javascript" src="script.js"></script>
+
+
+
